@@ -1,8 +1,8 @@
 {
-  "latest_version": 3,
+  "latest_version": 0,
   "articles": [
     {
-      "id": "shc_2026_01",
+      "id": "2026_01",
       "type": "news",
       "layout": "wide",
       "title": "16 bit sliced & loopable Space Hype Chiptune Tracks",
@@ -11,13 +11,13 @@
       "body": "A collection of 20 tracks, each seamlessly cut to pieces so you can work with them however you want. Grab them <a href='https://itch.io' target='_blank'>here</a>."
     },
     {
-      "id": "mlv_2026_01",
+      "id": "2026_03_#1",
       "type": "other",
       "layout": "wide",
-      "title": "8 bit sliced & loopable Medieval low-pace gameplay tracks",
-      "timestamp": "2026-03-01T09:00:00",
-      "image_url": "https://raw.githubusercontent.com/EnthusiastGuy/S.E.A.M-News-Feed/main/media/banner-test-2.png",
-      "body": "Perfect for tavern atmospheres and slow-paced exploration."
+      "title": "S.E.A.M - a convenient way to quickly test & stitch your loopables",
+      "timestamp": "2026-03-23T09:00:00",
+      "image_url": "https://raw.githubusercontent.com/EnthusiastGuy/S.E.A.M-News-Feed/main/media/SEAM-app.png",
+      "body": "S.E.A.M (Segmented Evaluation & Audition Module) is a local, browser-based audio audition tool built for one job: quickly testing and “stitching” loopable, branching music systems without uploading a single file. You point it at a folder containing your WAV sample pack, and the app immediately turns your on-disk layout into a playable timeline—complete with seeking, loop control where your filenames allow it, and crossfades when moving between tracks. \nThe workflow is intentionally low-friction. Your pack should have a wav/ directory, with each song represented by a subfolder. S.E.A.M then infers the song’s structure from the WAV names. If a full mix exists, use Song Name.wav. For loopable segments and branching transitions, name files with an index and an allowed “next” list such as Song Name N -> A, B, C.wav (or Song Name N - A, B, C.wav). If a segment ends a chain, Song Name N.wav is enough. In other words: metadata lives in filenames, so you don’t need extra editors—just a consistent naming scheme.\nOnce loaded, S.E.A.M gives you a seekable sequence of “bricks” you can click to jump instantly, and drag to reorder or insert additional parts. Loop controls appear only when the segment’s inferred transition data indicates it can transition to itself, letting you audition repeat behavior with options ranging from a single pass to “Forever” looping until you seek away. Track playback supports playlist-style audition, and a crossfade knob blends the tail of one song into the start of the next over a configurable overlap window—built for fast A/B comparisons while you’re listening for musical seams.\nWhen you need something more tangible than a live audition, S.E.A.M can export. It can stitch your current timeline into a single preview file in WAV, MP3, or OGG (with encoding settings you can configure and that persist per project). Per-part downloads are also available from the part sheet, which makes it easy to share or archive exactly the piece you were testing. For long compositions, exports are capped for seamless preview generation, pushing you to shorten arrangements when necessary.\nIf your day-to-day work involves loopables that must behave correctly across transitions, S.E.A.M is built to answer the question fast: “Does this transition feel right, and does this loop really hold?”"
     }
   ]
 }
