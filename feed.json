@@ -7,16 +7,16 @@
       "layout": "wide",
       "title": "16 bit sliced & loopable Space Hype Chiptune Tracks",
       "timestamp": "2026-03-12T11:52:00",
-      "image_url": "https://raw.githubusercontent.com/EnthusiastGuy/S.E.A.M-News-Feed/main/media/banner-test-1.jpg",
+      "image_url": "https://raw.githubusercontent.com/EnthusiastGuy/S.E.A.M-News-Feed/main/media/banner-test-1.png",
       "body": "A collection of 20 tracks, each seamlessly cut to pieces so you can work with them however you want. Grab them <a href='https://itch.io' target='_blank'>here</a>."
     },
     {
       "id": "mlv_2026_01",
       "type": "other",
-      "layout": "square",
+      "layout": "wide",
       "title": "8 bit sliced & loopable Medieval low-pace gameplay tracks",
       "timestamp": "2026-03-01T09:00:00",
-      "image_url": "https://raw.githubusercontent.com/EnthusiastGuy/S.E.A.M-News-Feed/main/media/banner-test-2.jpg",
+      "image_url": "https://raw.githubusercontent.com/EnthusiastGuy/S.E.A.M-News-Feed/main/media/banner-test-2.png",
       "body": "Perfect for tavern atmospheres and slow-paced exploration."
     }
   ]
